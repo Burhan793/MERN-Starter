@@ -70,3 +70,12 @@ This repository provides a starter template for building MERN stack applications
      npm run build
      ```
    - This will create optimized static files in the `dist` directory of the `frontend` folder. You can then serve these files using any static file server or integrate them with your backend.
+## Local setup (quick)
+1. Copy `.env.example` to `backend/.env` and fill DB and JWT secrets.
+2. From repo root:
+   cd backend && npm install
+   cd ../frontend && npm install
+3. Start servers:
+   cd backend && npm start
+   cd ../frontend && npm run dev
+"Conflict test line from main." 
