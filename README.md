@@ -78,3 +78,4 @@ This repository provides a starter template for building MERN stack applications
 3. Start servers:
    cd backend && npm start
    cd ../frontend && npm run dev
+"Conflict test line from main." 
